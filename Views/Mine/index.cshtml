@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+         <link rel="stylesheet" href="~/css/style.css"/>
+         <title>NinjaGold</title>
+    </head>
+    <body>      
+            <div class="container">      
+                <!-- ===================== MAIN CONTAINER =================================================================== -->    
+                    <div class="header">           
+                    <img src="~/img/giphy.gif" alt="giphyimage" />
+                    <h4>Gold: @ViewBag.gold </h4>
+                        
+                    </div>
+                <!-- ===================== FORMS =================================================================== -->
+                    <div class="box">
+                    <h4> Farm </h4>
+                    <p>( earns 1-5 gold )</p>
+                        <form action="/process_money" method="post">
+                            <input type="hidden" name="building" value="farm" />
+                            <input type="submit" value="Get some gold!"/>
+                        </form>
+                    </div>
+                    <div class="box">
+                        <h4> Cave </h4>
+                    <p>( earns 5-10 gold )</p>            
+                        <form action="/process_money" method="post">
+                            <input type="hidden" name="building" value="cave" />
+                            <input type="submit" value="Get some gold!!"/>
+                        </form>
+                    </div>
+                    <div class="box">
+                        <h4>House</h4>
+                        <p>( earns 2-5 gold )</p>
+                        <form action="/process_money" method="post">
+                            <input type="hidden" name="building" value="house" />
+                            <input type="submit" value="Get some gold!!!"/>
+                        </form>
+                    </div>
+                    <div class="box">
+                        <h4>Casino</h4>
+                        <p>( +/-50 gold )</p>               
+                        <form action="/process_money" method="post">
+                            <input type="hidden" name="building" value="casino" />
+                            <input type="submit" value="Get some gold!!!"/>
+                        </form>                
+                    </div><br><br>
+                    <div class="reset">
+                        <form action="/clear" method="post">
+                        <input type="submit" value="Restart again"/>
+                    </form>
+                    </div>
+                    <div class="activities">
+                            <h4>Message:</h4>            
+                            <p> @ViewBag.log </p>
+                    </div>
+                </div>        
+    </body>
+</html>

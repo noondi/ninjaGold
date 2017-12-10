@@ -1,0 +1,9 @@
+C:\Users\root\ninjaGold\bin\Debug\netcoreapp1.1\ninjaGold.deps.json
+C:\Users\root\ninjaGold\bin\Debug\netcoreapp1.1\ninjaGold.runtimeconfig.json
+C:\Users\root\ninjaGold\bin\Debug\netcoreapp1.1\ninjaGold.runtimeconfig.dev.json
+C:\Users\root\ninjaGold\bin\Debug\netcoreapp1.1\ninjaGold.dll
+C:\Users\root\ninjaGold\bin\Debug\netcoreapp1.1\ninjaGold.pdb
+C:\Users\root\ninjaGold\obj\Debug\netcoreapp1.1\ninjaGold.csproj.CoreCompileInputs.cache
+C:\Users\root\ninjaGold\obj\Debug\netcoreapp1.1\ninjaGold.AssemblyInfo.cs
+C:\Users\root\ninjaGold\obj\Debug\netcoreapp1.1\ninjaGold.dll
+C:\Users\root\ninjaGold\obj\Debug\netcoreapp1.1\ninjaGold.pdb
